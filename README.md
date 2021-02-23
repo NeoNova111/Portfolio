@@ -2,7 +2,7 @@
 ----------
 Welcome to my game development/ programming portfolio!
 My name is Carlo and I am an aspiring game developer currently studying "Animation & Game" at "Darmstadt University of Applied Sciences" in Dieburg.
-I am currently (1/12/2021) in my 3. semester. This repository shows offthe projects I worked on during my studies and thus shows my skill level for the respective semesters.
+I am currently (1/12/2021) in my 3. semester. This repository shows off the projects I worked on during my studies and thus shows my skill level for the respective semesters.
 ----------
 YouTube Channel:  
 https://www.youtube.com/channel/UCJKa8idl7TpF9RqIwFwmBOQ
