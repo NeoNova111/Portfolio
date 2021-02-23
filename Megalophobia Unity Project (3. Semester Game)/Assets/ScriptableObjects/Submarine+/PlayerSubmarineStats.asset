@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b736744a00c62fe44bbf7ddc94f1e533, type: 3}
+  m_Name: PlayerSubmarineStats
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  health: 50
+  forwardMomentum: 2.7
+  strafeMomentum: 1
+  backwardMomentum: 1
+  diveMomentum: 1.75
+  turnMomentum: 1
+  sideturnMomentum: 1.5
+  drag: 1.2
+  angulatDrag: 1.2
+  collisionRepelForce: 0.5
+  collisionInvulnTime: 0.5
+  defaultCollisionDamage: 10
+  respawned: 0
+  respawnTime: 3
+  maxDamageLightIntensity: 500000
+  maxDamageLightRange: 10
+  gameOver: {fileID: 11400000, guid: a9eeb94f1e4548844a6c50ebbf1aca91, type: 2}
+  respawn: {fileID: 11400000, guid: 378ce92884a70e8499ebf3d5a02de6a4, type: 2}
+  teleport: {fileID: 11400000, guid: fa2054799d4e15e4984b75bd985964b4, type: 2}
+  takeDamage: {fileID: 11400000, guid: fbd832989a2c7a94db74c9197f324307, type: 2}
+  submarinePosition: {x: 180.96297, y: 18.254091, z: 275.17175}
+  submarineEulerAngles: {x: -0, y: 0, z: 0}
+  submarineRotation: {x: 0, y: 0, z: 0, w: 1}

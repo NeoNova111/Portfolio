@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b4c106a9c8e674796e45ad1930f59b, type: 3}
+  m_Name: FishEncounter
+  m_EditorClassIdentifier: 
+  triggersNextDialogue: 0
+  leftSpeaker: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: "\xA1Puta madre!"
+    hasVoceOver: 1
+    voiceLine: {fileID: 11400000, guid: d92090800292c8a4ebc4c76c486b0250, type: 2}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: What was that?
+    hasVoceOver: 1
+    voiceLine: {fileID: 11400000, guid: 8454b32ba9a1de643afdcdb63319ccd5, type: 2}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: 'It -could be- a form of bioluminescent life.
+
+      But I''ve never seen
+      a specifment of quite this size before.'
+    hasVoceOver: 1
+    voiceLine: {fileID: 11400000, guid: 13f8fac982f662e47be6f6ed3bd03be9, type: 2}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: 'I''ve, never seen something like that before
+
+'
+    hasVoceOver: 1
+    voiceLine: {fileID: 11400000, guid: f8f03130851131f49a6662baa25567eb, type: 2}

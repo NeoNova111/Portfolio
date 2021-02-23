@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b4c106a9c8e674796e45ad1930f59b, type: 3}
+  m_Name: GoodMorning
+  m_EditorClassIdentifier: 
+  triggersNextDialogue: 0
+  leftSpeaker: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: ...What...What...where are we? How late is it?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: After we went through that tower, you fell asleep.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: ...How long was I gone?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: Don't know, our clocks stopped working, all of them.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: All of them?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: Yeah, if I had to guess you where gone for about an hour, maybe 6 or a
+      day.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: HHhhhh Jesus
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}

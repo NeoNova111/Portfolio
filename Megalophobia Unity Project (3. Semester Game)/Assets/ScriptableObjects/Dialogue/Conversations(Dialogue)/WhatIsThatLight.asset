@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b4c106a9c8e674796e45ad1930f59b, type: 3}
+  m_Name: WhatIsThatLight
+  m_EditorClassIdentifier: 
+  triggersNextDialogue: 0
+  leftSpeaker: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: So that's what that light was that I saw when I woke up? A flare?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: One of our flares, yes. It's the only way to orientate yourself out of
+      this damned rock.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: I see.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: Think you know how to find your way out?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: Yes, I do.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: "We only have so much oxygen to find U-2\nIt\u2019s fastest if we go through
+      here.\nTime and tide wait for no women."
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: One more thing, Naomi.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: "Yes, Ma\u2019am?"
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: "Should we see any other new, unexplained things, we\u2019ll keep moving.\nIt\u2019s
+      none of our concern."
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: But-
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: "They\u2019re not what we\u2019re here for."
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: "...Alright, let\u2019s keep moving."
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}

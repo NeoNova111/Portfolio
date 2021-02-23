@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d064cd91bf06942af9f16b4d3647ca, type: 3}
+  m_Name: Boulder Fist
+  m_EditorClassIdentifier: 
+  name: Boulder Fist
+  type: 1
+  icon: {fileID: 21300000, guid: fb94404dfca799f45a7a242353bbfb05, type: 3}
+  attack: 0
+  defense: 40
+  resistance: 40
+  speed: 8
+  luck: 0
+  abilityOne: {fileID: 11400000, guid: 3d034794863287947b09038398ebe9fc, type: 2}
+  abilityTwo: {fileID: 11400000, guid: 3262962c801e3e24e847c7db3095f38b, type: 2}

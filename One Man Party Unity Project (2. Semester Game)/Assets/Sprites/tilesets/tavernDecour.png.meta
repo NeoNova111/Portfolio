@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 20d856f199472674fb2c53def2dde542
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 579908792698866283
+    second: tavernDecour_0
+  - first:
+      213: -9106249696323586227
+    second: tavernDecour_1
+  - first:
+      213: 3911077144598224256
+    second: tavernDecour_2
+  - first:
+      213: 3829269545904726392
+    second: tavernDecour_3
+  - first:
+      213: 7722690030231403719
+    second: tavernDecour_4
+  - first:
+      213: 4366325069343536131
+    second: tavernDecour_5
+  - first:
+      213: -6017032813672893955
+    second: tavernDecour_6
+  - first:
+      213: 2862152953701990822
+    second: tavernDecour_7
+  - first:
+      213: -2148528990891323432
+    second: tavernDecour_8
+  - first:
+      213: -7866689093493260207
+    second: tavernDecour_9
+  - first:
+      213: -7696695614791022448
+    second: tavernDecour_10
+  - first:
+      213: 8015010613649572236
+    second: tavernDecour_11
+  - first:
+      213: -68131711517861004
+    second: tavernDecour_12
+  - first:
+      213: -3629659275399293316
+    second: tavernDecour_13
+  - first:
+      213: 1462889727222767650
+    second: tavernDecour_14
+  - first:
+      213: -6359199411353806760
+    second: tavernDecour_15
+  - first:
+      213: -2115625861195949028
+    second: tavernDecour_16
+  - first:
+      213: -5530150708270712463
+    second: tavernDecour_17
+  - first:
+      213: 6642974994580116022
+    second: tavernDecour_18
+  - first:
+      213: 1654262505393687334
+    second: tavernDecour_19
+  - first:
+      213: 2663131341046665317
+    second: tavernDecour_20
+  - first:
+      213: 786010968476127729
+    second: tavernDecour_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tavernDecour_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 28
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fefd04454e57d841b0d77aa407cc48c
+      internalID: 579908792698866283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 31
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26a185bdc3bda04089e9f885cf008b5
+      internalID: -9106249696323586227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87aa24b66cdd224bbc2d0bdad1bd5ed
+      internalID: 3911077144598224256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e26946d80392f48adcab1cda36182f
+      internalID: 3829269545904726392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 32
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5551c4ac8705dbd4990c1f4ec54bba2d
+      internalID: 7722690030231403719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 18
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c2fac1274811f43a3519ae6474ca88
+      internalID: 4366325069343536131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 28
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cd5fcfb709c1c46bef71fd424a6865
+      internalID: -6017032813672893955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 23
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecffe2832986bec4c83f905ee610db54
+      internalID: 2862152953701990822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 21
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c331eecd3c3c84c8c8574670b6ea6f
+      internalID: -2148528990891323432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 24
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc66e61029151440b51a3a051a08ffb
+      internalID: -7866689093493260207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4d2a2b51dada44ba616453a6791cfe
+      internalID: -7696695614791022448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4737cbc2aeeb84a8ad8ef78207b4c4
+      internalID: 8015010613649572236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c6c0fd49be2c944863ed3fb91694df
+      internalID: -68131711517861004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4da5a533d6fea49a629ca7dca9ae9e
+      internalID: -3629659275399293316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c53e1ece48ca4688fbab05e0ebd3a
+      internalID: 1462889727222767650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcfe23031f13e444899df89d638b9a1
+      internalID: -6359199411353806760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b406b6de8981f4c9adc548b37c8f1b
+      internalID: -2115625861195949028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 36
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a1e77df0558614590bae8c8faa5c50
+      internalID: -5530150708270712463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 3
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19597c563a4dab14baf6e90be8f48cba
+      internalID: 6642974994580116022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 36
+        width: 3
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf58e042328b4ce4cae3e3044c0bd3eb
+      internalID: 1654262505393687334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 36
+        width: 3
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390c575a07170ca458f2bdc62e82e744
+      internalID: 2663131341046665317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tavernDecour_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c37a57fcb4a3e3478cd2b6ed4fd099e
+      internalID: 786010968476127729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa67a05acd104da4db5b9529fe41683f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

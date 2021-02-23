@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b4c106a9c8e674796e45ad1930f59b, type: 3}
+  m_Name: Toothbrush
+  m_EditorClassIdentifier: 
+  triggersNextDialogue: 0
+  leftSpeaker: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+  rightSpeaker: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: So, this is it then.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: I suppose you get used to the furnishing?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: Hehe
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: Hmhmhm
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: Hahaha
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: "No mirrors, No carpet,\nYou didn\u2019t pack a toothbrush, did you?"
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: No, No.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: "See, I\u2019ve had this before! Most people, when they get here, after
+      about this time, they always ask about \"the toothbrush\"!"
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 8f2c311492c7e49468185ec011c624b1, type: 2}
+    text: ...Now, why would anyone need a toothbrush down here?
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
+  - character: {fileID: 11400000, guid: 19a6d860777e2c74aadce8976b14a45a, type: 2}
+    text: I guess you have a point, I have nothing to hide.
+    hasVoceOver: 0
+    voiceLine: {fileID: 0}
