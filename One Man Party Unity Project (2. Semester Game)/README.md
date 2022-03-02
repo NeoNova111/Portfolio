@@ -8,5 +8,4 @@ In the asset folder you will find code and assets created by me for this game. T
 ![OneManParty_OneManDev_Newcomer_Award_Promo_Screenshot (2)](https://user-images.githubusercontent.com/59093470/156414392-dba33964-5554-45fa-8dba-95fe9d5363fd.png)![OneManParty_OneManDev_Newcomer_Award_Promo_Screenshot (3)](https://user-images.githubusercontent.com/59093470/156414410-2822bdf4-0546-41b4-9cf7-0561eed98ece.png)![OneManParty_OneManDev_Newcomer_Award_Promo_Screenshot (4)](https://user-images.githubusercontent.com/59093470/156414444-4bc94769-032d-48c0-b31c-cf3546803a53.png)
 ----------
 Links:  
-<a href="https://www.youtube.com/watch?v=ox5ZZAuLEVo">Trailer</a>  
-<a href="https://www.youtube.com/watch?v=50jTLOs0Zpo">Showreel</a>
+<a href="https://www.youtube.com/watch?v=ox5ZZAuLEVo">Trailer</a> | <a href="https://www.youtube.com/watch?v=50jTLOs0Zpo">Showreel</a>
