@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 831dc932003d46a4b94d9f320b9ba11f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hitEffect: {instanceID: 0}
+  - enemyHitEvent: {fileID: 11400000, guid: 14605b2773c9b9941aa44b0dbf995539, type: 2}
+  - enemyAttack: {instanceID: 0}
+  - targetTransform: {instanceID: 0}
+  - meshRenderer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

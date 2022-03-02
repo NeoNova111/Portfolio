@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: Chuuni_GameBadResult
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 99b17b1da022c5f4f83dea9b1a1f5870, type: 2}
+  conversationLines:
+  - spriteType: 0
+    dialogueType: 1
+    text: 'Foolish...! '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 0
+    dialogueType: 0
+    text: 'That''s no way to handle the food of gods, the ultimate ambrosia, the
+      instant noodles! O-oh, how disgraceful of me, to let you conduct this preposterous
+      act! '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 2
+    dialogueType: 2
+    text: "A-and to think that I wanted to share the magic potency they have...with
+      you.\r"
+    triggerOnComplete: []
+    choices:
+    - choiceText: ... With the way you're acting, wouldn't it be difficult to find
+        friends?
+      affectionConsequence: 0
+      dialogueConsequence: {fileID: 11400000, guid: 0b54e9712c7834345937a7820dffcdac,
+        type: 2}
+      eventConsequence: {fileID: 0}
+    - choiceText: Next time you buy the noodles, I'll be sure to eat them with you
+        as your comrade!
+      affectionConsequence: 1
+      dialogueConsequence: {fileID: 11400000, guid: 439f21c32457bdb4782998c73db920f9,
+        type: 2}
+      eventConsequence: {fileID: 0}
+  lineIndex: 0

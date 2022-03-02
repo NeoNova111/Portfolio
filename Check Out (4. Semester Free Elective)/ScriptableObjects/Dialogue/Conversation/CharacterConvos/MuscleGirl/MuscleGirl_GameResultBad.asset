@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: MuscleGirl_GameResultBad
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 38f0cd346548e654191325287f36d21e, type: 2}
+  conversationLines:
+  - spriteType: 2
+    dialogueType: 1
+    text: You....Ah.... I don't wanna be mean. It's not your day today, huh?
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 2
+    dialogueType: 1
+    text: Hope you can get it better next time! I'm sure that your abilities are
+      so much more than that!
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 0
+    dialogueType: 0
+    text: Maybe it was the products....
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 2
+    dialogueType: 2
+    text: "Those weights that I bought, weren't they too heavy?\r"
+    triggerOnComplete: []
+    choices:
+    - choiceText: Hah, I have yet to scan a product that'd be too heavy for me!!
+      affectionConsequence: 0
+      dialogueConsequence: {fileID: 11400000, guid: eae9fc0ee6ee2be49984108c92af7a71,
+        type: 2}
+      eventConsequence: {fileID: 0}
+    - choiceText: Don't worry, for you I'll gladly take any kind of weight on my
+        scanning tape!
+      affectionConsequence: 1
+      dialogueConsequence: {fileID: 11400000, guid: 4be353174fe21c344a2e5441227d22b0,
+        type: 2}
+      eventConsequence: {fileID: 0}
+  lineIndex: 0

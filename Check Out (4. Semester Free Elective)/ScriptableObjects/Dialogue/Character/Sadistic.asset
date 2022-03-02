@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e0dfee56a489747b13ab6c2f17aea6, type: 3}
+  m_Name: Sadistic
+  m_EditorClassIdentifier: 
+  characterName: Khatiya
+  characterSprites:
+  - {fileID: 21300000, guid: 6604ac04b077f264aa67f9854d09fa3e, type: 3}
+  - {fileID: 21300000, guid: 0778d9b75d6ffa442b0dc01517b69f64, type: 3}
+  - {fileID: 21300000, guid: 9d52e7b8f24dbad4e8efb2d530a33392, type: 3}
+  specialProductSprites:
+  - {fileID: 21300000, guid: 6ea96154fb027fb499cbad978d592d85, type: 3}
+  - {fileID: 21300000, guid: 160208b86c65bd94cab56849607d3af3, type: 3}
+  - {fileID: 21300000, guid: 56ccb7993ccc259429316683a27aae05, type: 3}
+  chibiSprite: {fileID: 21300000, guid: f23fd44efa459a245a1c59bcda1970ae, type: 3}
+  affectionLevel: 0
+  tempAffection: 0
+  rhythmGameSong: {fileID: 11400000, guid: 790808552b8d0d94aacbfb7a0b8df523, type: 2}
+  smallTalk: {fileID: 11400000, guid: 1e0138e7cddb4e3438f106980f7ede5d, type: 2}
+  gameSuccess: {fileID: 11400000, guid: a42f5cdbc76ad2a49bb7acf43169d597, type: 2}
+  gameFail: {fileID: 11400000, guid: 2b48949090c5abf45bb9721298ae65de, type: 2}
+  finalSuccess: {fileID: 11400000, guid: 1acdf0f292dc5e742bb74ce882857d66, type: 2}
+  finalFail: {fileID: 11400000, guid: 6402ea9af34d7d64192c0d53b998f469, type: 2}
+  affectionsChange: {fileID: 11400000, guid: a2df1802e5d113443be567ddb7f12e90, type: 2}

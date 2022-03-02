@@ -1,0 +1,215 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class DialogueSystem : MonoBehaviour
+{
+    public static DialogueSystem instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    [System.Serializable] public struct ELEMENTS
+    {
+        public GameObject speechPanel;
+        public Text nameText;
+        public Text speechText;
+
+        public GameObject choicePanel;
+        public Text choiceOne;
+        public Text choiceTwo;
+
+        public GameObject character;
+    }
+    public GameObject speechPanel { get { return elements.speechPanel; } }
+    public Text nameText { get { return elements.nameText; } }
+    public Text speechText { get { return elements.speechText; } }
+    public GameObject choicePanel { get { return elements.choicePanel; } }
+    public Text choiceOne { get { return elements.choiceOne; } }
+    public Text choiceTwo { get { return elements.choiceTwo; } }
+    public GameObject characterSprite { get { return elements.character; } }
+    public ELEMENTS elements;
+
+    public DialogueConversation currentConverstaion;
+
+    public KeyCode advanceDialogueKey;
+    [HideInInspector] public bool isWaitingForChoice = false; //not used rn
+    public float charactersPerSecond;
+
+    string targetSpeech = "";
+    Coroutine speaking = null;
+    bool reachedEnd = false;
+    public bool isSpeaking = false; /*{ get { return speaking != null; } }*/
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        currentConverstaion.lineIndex = 0;
+        speechPanel.SetActive(false);
+        choicePanel.SetActive(false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(advanceDialogueKey))
+        {
+            SayCurentLine();
+        }
+    }
+
+    public void SayCurentLine()
+    {
+        Say(currentConverstaion.currentLine().text, currentConverstaion.currentLine().dialogueType, currentConverstaion.dialogueCharacter.characterName);
+    }
+
+    public void Say(string dialogue, DialogueType type, string speakerName) 
+    {
+        Debug.Log(isWaitingForChoice);
+        if (isWaitingForChoice) //can't advance dialogue if waiting for choice
+        {
+            return;
+        }
+
+        if (reachedEnd && !isSpeaking) //ends dialogue if at the end and no one is typing/ speaking
+        {
+            EndDialogue();
+            return;
+        }
+        else if (reachedEnd)
+        {
+            StopSpeaking();
+        }
+
+        if (reachedEnd)
+            currentConverstaion.lineIndex = 0;
+
+        if (!StopSpeaking())
+        {
+            speaking = StartCoroutine(Speaking(dialogue, type, speakerName));
+            //set sprite here
+            //characterSprite.GetComponent<Image>().sprite = currentConverstaion.dialogueCharacter.characterSprites[(int)currentConverstaion.conversationLines[currentConverstaion.lineIndex].sprite];
+            reachedEnd = !currentConverstaion.IterateLineIndex();
+        }
+    }
+
+    public bool StopSpeaking()
+    {
+        bool stopped = false;
+        speechText.text = targetSpeech;
+
+        if (isSpeaking)
+        {
+            stopped = true;
+            isSpeaking = false;
+            StopCoroutine(speaking);
+        }
+
+        speaking = null;
+
+        return stopped;
+    }
+
+    public void EndDialogue()
+    {
+        reachedEnd = false;
+        StopSpeaking();
+        speechPanel.SetActive(false);
+        currentConverstaion.lineIndex = 0;
+    }
+
+    IEnumerator Speaking(string speech, DialogueType dialogueType, string speakerName)
+    {
+        //just to be sure everything is set up right
+        speechPanel.SetActive(true);
+        choicePanel.SetActive(false);
+        targetSpeech = speech;
+        isWaitingForChoice = false;
+        isSpeaking = true;
+
+        switch (dialogueType)
+        {
+            case DialogueType.ADDITIVE:
+                targetSpeech = speechText.text + targetSpeech;
+                break;
+            case DialogueType.OVERRIDE:
+                speechText.text = "";
+                break;
+            case DialogueType.CHOICE:
+                speechText.text = "";
+                isWaitingForChoice = true;
+                choiceOne.text = currentConverstaion.currentLine().choices[0].choiceText;
+                choiceTwo.text = currentConverstaion.currentLine().choices[1].choiceText;
+                break;
+        }
+        nameText.text = speakerName; //temp
+
+        for(int i = speechText.text.Length; i < targetSpeech.Length; i++)
+        {
+            speechText.text += targetSpeech[i];
+            yield return new WaitForSeconds(1/charactersPerSecond);
+        }
+
+        //finished Text
+        if (isWaitingForChoice)
+            choicePanel.SetActive(true);
+
+        while (isWaitingForChoice)
+            yield return new WaitForEndOfFrame();
+
+        isSpeaking = false;
+    }
+
+    public void ChoiceOne()
+    {
+        currentConverstaion.dialogueCharacter.affectionLevel += currentConverstaion.currentLine().choices[0].affectionConsequence; //make this cleaner maybe
+        if (currentConverstaion.currentLine().choices[0].eventConsequence)
+            currentConverstaion.currentLine().choices[0].eventConsequence.Raise();
+
+        if (currentConverstaion.currentLine().choices[0].dialogueConsequence)
+        {
+            SetConvo(currentConverstaion.currentLine().choices[0].dialogueConsequence);
+            StopSpeaking();
+            SayCurentLine();
+        }
+        else
+        {
+            EndDialogue();
+        }
+
+        isWaitingForChoice = false;
+        choicePanel.SetActive(false);
+    }
+
+    public void ChoiceTwo()
+    {
+        currentConverstaion.dialogueCharacter.affectionLevel += currentConverstaion.currentLine().choices[1].affectionConsequence; //make this also cleaner maybe
+        if (currentConverstaion.currentLine().choices[1].eventConsequence)
+            currentConverstaion.currentLine().choices[1].eventConsequence.Raise();
+
+        if (currentConverstaion.currentLine().choices[1].dialogueConsequence)
+        {
+            SetConvo(currentConverstaion.currentLine().choices[1].dialogueConsequence);
+            isWaitingForChoice = false;
+            choicePanel.SetActive(false);
+            StopSpeaking();
+            SayCurentLine();
+        }
+        else
+        {
+            EndDialogue();
+        }
+
+        isWaitingForChoice = false;
+        choicePanel.SetActive(false);
+    }
+
+    public void SetConvo(DialogueConversation convo)
+    {
+        currentConverstaion = convo;
+        convo.lineIndex = 0;
+        reachedEnd = false;
+    }
+}

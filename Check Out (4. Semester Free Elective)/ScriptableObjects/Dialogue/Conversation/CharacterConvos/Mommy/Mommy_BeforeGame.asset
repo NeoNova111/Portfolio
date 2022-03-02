@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: Mommy_BeforeGame
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 1d634d7be30504344be9c4ecd467387f, type: 2}
+  conversationLines:
+  - spriteType: 1
+    dialogueType: 1
+    text: 'Oh, such vigorous response! They do train them well nowadays I see~.  '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 0
+    dialogueType: 2
+    text: "Can't wait till you show me just how well those powerful arms can move!\r"
+    triggerOnComplete: []
+    choices:
+    - choiceText: Hah... Hope I can show you my abilities well!
+      affectionConsequence: 1
+      dialogueConsequence: {fileID: 11400000, guid: 142b26fc1500b824d83bccef52b2d493,
+        type: 2}
+      eventConsequence: {fileID: 0}
+    - choiceText: 'I''m just being polite is all, haha... '
+      affectionConsequence: 0
+      dialogueConsequence: {fileID: 11400000, guid: bf6587fcfc3cf6a429c9276143d1fecf,
+        type: 2}
+      eventConsequence: {fileID: 0}
+  lineIndex: 1

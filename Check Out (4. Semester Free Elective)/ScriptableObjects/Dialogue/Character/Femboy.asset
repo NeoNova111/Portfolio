@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e0dfee56a489747b13ab6c2f17aea6, type: 3}
+  m_Name: Femboy
+  m_EditorClassIdentifier: 
+  characterName: Kae
+  characterSprites:
+  - {fileID: 21300000, guid: ee5c83683f7be5748ad739e76b83e1ca, type: 3}
+  - {fileID: 21300000, guid: 440ab6fcb7bad334f92763eb8cb0a62f, type: 3}
+  - {fileID: 21300000, guid: 357585cb2001fe445a03830bcb98365f, type: 3}
+  specialProductSprites:
+  - {fileID: 21300000, guid: 96b97df3e34cd8e468a57da2184d8e49, type: 3}
+  - {fileID: 21300000, guid: 05d96aede6ac6e442adfac717991a1f4, type: 3}
+  - {fileID: 21300000, guid: 95e99194429e12b4b877c5c0fd1b266b, type: 3}
+  chibiSprite: {fileID: 21300000, guid: 698baa85730de0246a811044372639e3, type: 3}
+  affectionLevel: 0
+  tempAffection: 1
+  rhythmGameSong: {fileID: 11400000, guid: 561ca63df78dad04e88fcd19d5c3150a, type: 2}
+  smallTalk: {fileID: 11400000, guid: 314dc1ea3a373f24f89a26a871e9f428, type: 2}
+  gameSuccess: {fileID: 11400000, guid: 0ff42a9d917a7f24cacd8df47d4cb63d, type: 2}
+  gameFail: {fileID: 11400000, guid: a8a8e494491116b41a1da2ae59da458d, type: 2}
+  finalSuccess: {fileID: 11400000, guid: ced68ad7462488947abfd401e6e95dad, type: 2}
+  finalFail: {fileID: 11400000, guid: 6cadd3381fefa4948b2685d9ae573911, type: 2}
+  affectionsChange: {fileID: 11400000, guid: a2df1802e5d113443be567ddb7f12e90, type: 2}

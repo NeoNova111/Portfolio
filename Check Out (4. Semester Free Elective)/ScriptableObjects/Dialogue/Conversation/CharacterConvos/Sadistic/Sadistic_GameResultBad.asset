@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: Sadistic_GameResultBad
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 72b92f841cda0084abfb143369b2dff8, type: 2}
+  conversationLines:
+  - spriteType: 0
+    dialogueType: 1
+    text: Well...
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 0
+    dialogueType: 0
+    text: ' That was underwhelming. How come you''re that miserable at your own job?'
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 2
+    dialogueType: 1
+    text: I'd almost call that a talent if only it didn't needlessly waste my time.
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 0
+    dialogueType: 2
+    text: 'Ugh, and why are those chocolates so expensive? Aren''t you mutts too
+      demanding for such a rundown establishment?
+
+'
+    triggerOnComplete: []
+    choices:
+    - choiceText: I don't think that anything cheaper than that suits you, ma'am!
+      affectionConsequence: 1
+      dialogueConsequence: {fileID: 11400000, guid: 8d203a70f6506ce48aa6643264161982,
+        type: 2}
+      eventConsequence: {fileID: 0}
+    - choiceText: Please check the price twice next time, ma'am...
+      affectionConsequence: 0
+      dialogueConsequence: {fileID: 11400000, guid: 260177c6acf1f5c45aee74ce0a332553,
+        type: 2}
+      eventConsequence: {fileID: 0}
+  lineIndex: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e0dfee56a489747b13ab6c2f17aea6, type: 3}
+  m_Name: Chuuni
+  m_EditorClassIdentifier: 
+  characterName: Emma
+  characterSprites:
+  - {fileID: 21300000, guid: 4904870a9508b52489936b3202732b69, type: 3}
+  - {fileID: 21300000, guid: 531c45803caa48741af0b5b91b55a8f9, type: 3}
+  - {fileID: 21300000, guid: c4e970654dcee9c4e94a44702070087a, type: 3}
+  specialProductSprites:
+  - {fileID: 21300000, guid: fd58ed31e3f66f94c81953aaf4e8a3f3, type: 3}
+  - {fileID: 21300000, guid: 311ac24166bcbdb4db08a713cff3150f, type: 3}
+  - {fileID: 21300000, guid: 7c7920b7490e5c141b7380b3dfc6cce5, type: 3}
+  chibiSprite: {fileID: 21300000, guid: 403aecc4cabf8f9489479fad6ecb3d87, type: 3}
+  affectionLevel: 0
+  tempAffection: 0
+  rhythmGameSong: {fileID: 11400000, guid: bc0e2aac7194ca447af4d41133dda378, type: 2}
+  smallTalk: {fileID: 11400000, guid: 51cbdc7cf78e55a40b758122c2e6072d, type: 2}
+  gameSuccess: {fileID: 11400000, guid: 4825a1e79dfe3cc4fa5cf8513d446f45, type: 2}
+  gameFail: {fileID: 11400000, guid: cba7cf10dde0add49866e6595329416e, type: 2}
+  finalSuccess: {fileID: 11400000, guid: 31a4649b538cc5c42ad7aa671fde6b9e, type: 2}
+  finalFail: {fileID: 11400000, guid: 31a4649b538cc5c42ad7aa671fde6b9e, type: 2}
+  affectionsChange: {fileID: 11400000, guid: a2df1802e5d113443be567ddb7f12e90, type: 2}

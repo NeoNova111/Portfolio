@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e0dfee56a489747b13ab6c2f17aea6, type: 3}
+  m_Name: Mommy
+  m_EditorClassIdentifier: 
+  characterName: Sharise
+  characterSprites:
+  - {fileID: 21300000, guid: bb9b184b2885df74b8648b70bd4a1dfb, type: 3}
+  - {fileID: 21300000, guid: f9da0fe67db6a79459951bfd56a072d6, type: 3}
+  - {fileID: 21300000, guid: 5bba8e6802743214dbc7a392dcc50d38, type: 3}
+  specialProductSprites:
+  - {fileID: 21300000, guid: 3bc6b20e8dc36d54eb1a7f295af5743a, type: 3}
+  - {fileID: 21300000, guid: c41c52c0a546981478ad846979901be2, type: 3}
+  - {fileID: 21300000, guid: 005d45ee9c8d9b04da12b0700b8892a4, type: 3}
+  chibiSprite: {fileID: 21300000, guid: 734b773e991f72946b65d72cd5fe1618, type: 3}
+  affectionLevel: 0
+  tempAffection: 0
+  rhythmGameSong: {fileID: 11400000, guid: 9818b83fee35c5145802fe768e583912, type: 2}
+  smallTalk: {fileID: 11400000, guid: ebb5434ea247a6b45b0992af4d0f5d2d, type: 2}
+  gameSuccess: {fileID: 11400000, guid: 1bcb189cd4cef364fb87c4cf7ba891ac, type: 2}
+  gameFail: {fileID: 11400000, guid: bd1117b2ea7b7994d98b2e4962749dc7, type: 2}
+  finalSuccess: {fileID: 11400000, guid: dc90669dc6e29fb4f84779c91fdd1b0d, type: 2}
+  finalFail: {fileID: 11400000, guid: a70f1701ad57c134290780da0fb34e61, type: 2}
+  affectionsChange: {fileID: 11400000, guid: a2df1802e5d113443be567ddb7f12e90, type: 2}

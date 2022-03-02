@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: Chuuni_FinalBad
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 99b17b1da022c5f4f83dea9b1a1f5870, type: 2}
+  conversationLines:
+  - spriteType: 0
+    dialogueType: 1
+    text: 'Well I guess today is not the day I find a comrade, after all... '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 2
+    dialogueType: 0
+    text: ' M-my eye of clairvoyance is telling me not to trust the scripture you''d
+      hand me next. '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 2
+    dialogueType: 1
+    text: 'I-I''ll be departing now then...
+
+'
+    triggerOnComplete: []
+    choices: []
+  lineIndex: 0

@@ -1,0 +1,1755 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6930927b37341dc458b70bc3c2ef2d19, type: 3}
+  m_Name: Chuuni_Song
+  m_EditorClassIdentifier: 
+  highScore: 0
+  highestCombo: 0
+  bpm: 123
+  secondsTillLine: 1
+  music: {fileID: 8300000, guid: 283e9f11a0de39747a5e6813fc12a727, type: 3}
+  targetScorePercentage: 0.5
+  changeTiming:
+    change: 0
+    indexRange: {x: 0, y: 345}
+    changeBySec: -0.08
+  notesToSpawn:
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 2.203333
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 2.203333
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 2.6686516
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 2.8289127
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 2.9777298
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 3.131737
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 3.2348652
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 3.671643
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 3.8258166
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 3.9634972
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 4.1243234
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 4.2298326
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 4.561497
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 4.5749674
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 5.024555
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 5.177314
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 5.318644
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 5.446461
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 5.577675
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 6.137052
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 6.293167
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 6.453907
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 6.602014
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 6.6963887
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 7.0399966
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 7.0399966
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 7.4849014
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 7.4849014
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 7.9312077
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 8.074147
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 8.233494
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 8.400454
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 8.518778
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 8.941535
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 9.100068
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 9.261742
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 9.412641
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 9.522159
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 9.919637
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 9.938403
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 10.378599
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 10.524096
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 10.681294
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 10.833401
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 10.949237
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 11.445514
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 11.603718
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 11.764418
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 11.904919
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 12.358154
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 12.366867
+  - typeToSpawn: 1
+    noteLength: 1.0424271
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 12.710405
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 13.879445
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 14.045174
+  - typeToSpawn: 1
+    noteLength: 1.3195835
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 14.330771
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 15.761666
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 15.9369755
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 16.229609
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 16.69884
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 17.662828
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 17.837967
+  - typeToSpawn: 1
+    noteLength: 1
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 18.144299
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 19.547249
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 19.756247
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 20.06354
+  - typeToSpawn: 1
+    noteLength: 0.21851693
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 20.539185
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 21.489252
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 21.734234
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 21.98782
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 22.492023
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 22.75499
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 22.989761
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 23.487568
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 23.661
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 24.007736
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 24.016222
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 24.503576
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 24.503576
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 24.903473
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 24.91255
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 25.853315
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 26.018435
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 26.450193
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 26.635088
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 27.05045
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 27.236734
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 27.579588
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 27.735481
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 27.945635
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 28.707565
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 28.89207
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 29.341423
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 29.49285
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 29.931416
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 30.106297
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 30.48008
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 30.63378
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 30.784487
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 30.915289
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 31.223204
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 31.670963
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 32.13534
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 32.27864
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 32.42378
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 32.556023
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 32.68345
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 33.179203
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 33.331135
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 33.467472
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 33.61644
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 34.068356
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 34.077446
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 34.50192
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 34.657524
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 34.79756
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 34.951706
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 35.07196
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 35.631374
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 35.806087
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 35.95
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 36.15
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 36.53405
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 36.53405
+  - typeToSpawn: 1
+    noteLength: 0.85
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 36.941498
+  - typeToSpawn: 1
+    noteLength: 0.85
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 36.941498
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 38.07391
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 38.260113
+  - typeToSpawn: 1
+    noteLength: 1.1531128
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 38.54006
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 39.924168
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 40.117092
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 40.438133
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 40.88614
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 41.812035
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 42.006855
+  - typeToSpawn: 1
+    noteLength: 1.1661847
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 42.298157
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 43.739395
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 43.943054
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 44.285496
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 44.752037
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 45.718613
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 45.729053
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 45.968784
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 45.991745
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 46.243988
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 46.25625
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 46.768486
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 46.768486
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 46.999237
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 47.022556
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 47.259148
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 47.30397
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 47.751053
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 47.94739
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 48.219242
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 48.684143
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 49.11354
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 49.60199
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 50.06602
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 50.546444
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 50.867455
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 51.043533
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 51.59847
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 52.055492
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 52.39354
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 52.54897
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 52.97633
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 53.441196
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 53.7701
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 53.951054
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 54.4161
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 54.893383
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 55.216293
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 55.381054
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 55.78936
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 56.29168
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 56.672672
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 56.84922
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 57.283054
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 57.771915
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 58.12864
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 58.28973
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 58.708035
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 59.20286
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 59.577423
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 59.753666
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 60.22992
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 60.682697
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 61.043213
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 61.20693
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 61.632442
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 62.133633
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 62.469006
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 62.64521
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 63.083595
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 63.575645
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 63.92595
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 64.08535
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 64.53662
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 65.04515
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 65.38275
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 65.55296
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 66.05983
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 66.5163
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 66.8434
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 67.00656
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 67.42812
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 67.92672
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 68.27254
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 68.44205
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 68.91185
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 69.446754
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 69.59108
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 69.94266
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 70.44372
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 70.74388
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 70.92454
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 71.37426
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 71.83812
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 72.16415
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 72.325584
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 72.77177
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 73.31768
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 73.67094
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 73.83415
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 74.26384
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 74.759674
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 75.08305
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 75.238464
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 75.66085
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 76.17755
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 76.53517
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 76.70031
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 77.16538
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 77.66635
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 77.99477
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 78.15041
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 78.56124
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 79.08885
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 79.43195
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 79.59115
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 80.0646
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 80.57947
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 80.912926
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 81.06278
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 81.50205
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 82.05307
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 82.37677
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 82.53927
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 82.99568
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 83.51631
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 83.89145
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 84.02875
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 84.44939
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 84.94948
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 85.23769
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 85.416985
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 85.83658
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 86.355125
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 86.691284
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 86.84247
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 87.32205
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 87.47051
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 87.61009
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 87.75195
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 87.86075
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 88.47326
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 88.59164
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 88.72919
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 88.87755
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 88.98349
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 89.26524
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 89.29402
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 89.73015
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 89.86631
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 90.01196
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 90.14247
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 90.26423
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 90.39038
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 90.82388
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 90.97371
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 91.124176
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 91.27209
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 91.699814
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 91.699814
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 92.1796
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 92.1796
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 92.57188
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 92.73036
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 92.87316
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 93.02225
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 93.152214
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 93.6931
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 93.833534
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 93.995155
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 94.14653
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 94.25038
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 94.58981
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 94.58981
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 95.062645
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 95.20546
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 95.3506
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 95.47913
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 95.60589
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 96.09843
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 96.23979
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 96.387924
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 96.52525
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 96.98809
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 96.99734
+  - typeToSpawn: 1
+    noteLength: 0.94768804
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 97.45945
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 98.55876
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 98.75366
+  - typeToSpawn: 1
+    noteLength: 1.172824
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 99.025475
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 100.3539
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 100.601364
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 100.85933
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 101.356476
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 102.30868
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 102.54064
+  - typeToSpawn: 1
+    noteLength: 1.177653
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 102.79028
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 104.255005
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 104.49781
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 104.77549
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 105.26799
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 106.22538
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 106.460976
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 106.71325
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 107.21971
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 107.42473
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 107.69824
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 108.1795
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 108.1795
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 108.371346
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 108.380104
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 108.68576
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 108.69653
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 109.136536
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 109.150856
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 109.63475
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 109.6433
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 110.209694
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 110.23631
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 110.399994
+  - typeToSpawn: 0
+    noteLength: 0
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 110.399994
+  - typeToSpawn: 1
+    noteLength: 1.013481
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 0
+    timingInSeconds: 110.59999
+  - typeToSpawn: 1
+    noteLength: 1.025524
+    overrideSprite: {fileID: 0}
+    lineToSpawnOn: 1
+    timingInSeconds: 110.6

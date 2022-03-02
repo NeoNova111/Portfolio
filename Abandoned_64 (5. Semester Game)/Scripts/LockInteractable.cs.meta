@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10702eea564aa5a4dab81f5eb1322edd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerstats: {fileID: 11400000, guid: 6c1bb8b5704b39b49bb269a0b7507134, type: 2}
+  - collectablesChanged: {fileID: 11400000, guid: a7623a47952b10b429d1862f1e29232e, type: 2}
+  - unlockedLock: {fileID: 11400000, guid: 48b19ad45f3a7134a8f6a5da93635f2e, type: 2}
+  - targetTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

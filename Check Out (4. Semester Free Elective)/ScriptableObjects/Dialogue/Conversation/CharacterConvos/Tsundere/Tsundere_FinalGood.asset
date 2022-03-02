@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: Tsundere_FinalGood
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 770984269052ed14da3427226c79bb20, type: 2}
+  conversationLines:
+  - spriteType: 0
+    dialogueType: 1
+    text: 'O-okay, I will sign that card, whatever. '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 1
+    dialogueType: 1
+    text: But you better use it well, now that it has m-my name on it...
+    triggerOnComplete: []
+    choices: []
+  lineIndex: 0

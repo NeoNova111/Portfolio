@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6660bc5a4a1704eb97d176ac245c70, type: 3}
+  m_Name: Sadistic_SmallTalk
+  m_EditorClassIdentifier: 
+  dialogueCharacter: {fileID: 11400000, guid: 72b92f841cda0084abfb143369b2dff8, type: 2}
+  conversationLines:
+  - spriteType: 0
+    dialogueType: 1
+    text: 'Oooh? Aren''t you too much of a lost pup to be working here? '
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 1
+    dialogueType: 1
+    text: Ah, on a second glance, you're quite suited for this job, just pitiful
+      enough.
+    triggerOnComplete: []
+    choices: []
+  - spriteType: 0
+    dialogueType: 2
+    text: "Fine then, check me out and entertain me.\r"
+    triggerOnComplete: []
+    choices:
+    - choiceText: Ah, right...! I'll check you out.
+      affectionConsequence: 0
+      dialogueConsequence: {fileID: 11400000, guid: 980915ad71dce524b96b8c7b963b092b,
+        type: 2}
+      eventConsequence: {fileID: 0}
+    - choiceText: Uh... sorry, I'm quite busy now.
+      affectionConsequence: 0
+      dialogueConsequence: {fileID: 0}
+      eventConsequence: {fileID: 0}
+  lineIndex: 0

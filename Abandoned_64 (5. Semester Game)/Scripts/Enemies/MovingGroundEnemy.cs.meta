@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f7889cdaba3512c45874820931967638
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hitEffect: {instanceID: 0}
+  - enemyHitEvent: {instanceID: 0}
+  - enemyAttack: {fileID: 11400000, guid: 1863cefc7a7738c47a8350759f0c56f0, type: 2}
+  - enemyDeath: {instanceID: 0}
+  - targetTransform: {instanceID: 0}
+  - healthBarTransform: {instanceID: 0}
+  - meshRenderer: {instanceID: 0}
+  - attackHit: {fileID: 11400000, guid: a8c27a78260129041aab48191b384175, type: 2}
+  - digStart: {fileID: 11400000, guid: 464b94479b181e4449411310c4eb9ff7, type: 2}
+  - digEnd: {fileID: 11400000, guid: eed0cdb559f6c8f4cbdb8332874dfbc1, type: 2}
+  - animator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
