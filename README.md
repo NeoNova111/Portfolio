@@ -11,7 +11,7 @@ Priority:
 1. 5th Semester Project "Abandoned_64"  
 2. 3rd Semester Project "Megalophobia"  
 3. Free Elective Project "Checkout"  
-4. 2nd Semester Project  
+4. 2nd Semester Project "One Man Party"  
 
 If you only have time to take a look at one/ or a few of these projects I recommend you to consider my priority list. Of course I still encourage you to take a look at all of them ;)
 ----------
