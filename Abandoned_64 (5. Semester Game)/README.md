@@ -5,6 +5,4 @@ Abandoned_64 is a nostalgia-inducing N_64 game that’s still in the early stage
 The scripts folder contains code mostly created by me
 ---------
 Links:  
-<a href="https://www.youtube.com/watch?v=nJug7Mf8hVU">Trailer</a>  
-<a href="https://l4ndo.itch.io/abandoned-64">Itch.io</a>  
-<a href="https://www.youtube.com/watch?v=W2zVl0yd2QQ">Showreel</a>  
+<a href="https://www.youtube.com/watch?v=nJug7Mf8hVU">Trailer</a> | <a href="https://l4ndo.itch.io/abandoned-64">Itch.io</a> | <a href="https://www.youtube.com/watch?v=W2zVl0yd2QQ">Showreel</a>  
