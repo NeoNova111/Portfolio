@@ -7,7 +7,7 @@ It is the first full game project I have worked on in a collaborative team effor
 
 The assets folder only contains the assets (for this project the code) created by myself.
 
-Please refer to the links below for further information & my personal contributions on the project
+Please refer to the links below for further information on my personal contributions and the project in general
 ----------
 How To Play:
 
