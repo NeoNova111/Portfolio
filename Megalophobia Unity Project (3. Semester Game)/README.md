@@ -7,12 +7,6 @@ It is the first full game project I have worked on in a collaborative team effor
 
 The assets folder only contains the assets (for this project the code) created by myself. To get a feel for the full game please refer to the links below.
 ----------
-Links:  
-<a href="https://www.youtube.com/watch?v=n0k5NkSPoXU">Trailer</a>  
-<a href="https://kantakerro.itch.io/megalophobia">Itch.io</a>  
-<a href="https://www.youtube.com/watch?v=FgJgqMjy5L4">Showreel</a>  
-<a href="https://www.youtube.com/watch?v=8MehPJkkKew">Testing Build Walkthrough</a>  
-----------
 How To Play:
 
 Controls:  
@@ -23,3 +17,5 @@ esc: open/ close pause-menu
 space: advance/ skip dialogue  
 when dead press any key to respawn  
 ----------
+Links:  
+<a href="https://www.youtube.com/watch?v=n0k5NkSPoXU">Trailer</a> | <a href="https://kantakerro.itch.io/megalophobia">Itch.io</a> | <a href="https://www.youtube.com/watch?v=FgJgqMjy5L4">Showreel</a> | <a href="https://www.youtube.com/watch?v=8MehPJkkKew">Testing Build Walkthrough</a>  
