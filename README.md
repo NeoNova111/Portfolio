@@ -2,7 +2,7 @@
 ----------
 Welcome to my game development/ programming portfolio!
 My name is Carlo and I am an aspiring game developer currently studying "Animation & Game" at "Darmstadt University of Applied Sciences" in Dieburg.
-I am currently (1/12/2021) in my 3. semester. This repository shows off the projects I worked on during my studies and thus shows my skill level for the respective semesters.
+As of the 2nd of March 2022 I just finished my 5. semester. This repository shows off the projects I worked on during my studies and give you a good overview over my skills and progress as a game developer/ programmer.
 ----------
 Priority:  
 1. 5th Semester Project "Abandoned_64"  
