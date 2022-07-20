@@ -2,7 +2,7 @@
 ---------
 Abandoned_64 is a nostalgia-inducing N_64 game that’s still in the early stages of development where you must use bugs, glitches and developer tools in creative ways to progress through the seemingly impossible levels.
 
-The scripts folder contains code mostly created by me
+The scripts folder contains code mainly created by me
 
 Please refer to the links below for further information on my personal contributions and the project in general
 ---------
