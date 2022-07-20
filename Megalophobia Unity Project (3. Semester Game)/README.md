@@ -9,15 +9,5 @@ The assets folder only contains the assets (for this project the code) created b
 
 Please refer to the links below for further information on my personal contributions and the project in general
 ----------
-How To Play:
-
-Controls:  
-w/s: forward/ backward  
-a/d: rotate left/ rotate right  
-c: scan (on a cooldown)  
-esc: open/ close pause-menu
-space: advance/ skip dialogue  
-when dead press any key to respawn  
-----------
 Links:  
-<a href="https://www.youtube.com/watch?v=n0k5NkSPoXU">Trailer</a> | <a href="https://kantakerro.itch.io/megalophobia">Itch.io</a> | <a href="https://www.youtube.com/watch?v=FgJgqMjy5L4">Showreel</a> | <a href="https://www.youtube.com/watch?v=8MehPJkkKew">Testing Build Walkthrough</a>  
+<a href="https://www.youtube.com/watch?v=n0k5NkSPoXU">Trailer</a> | <a href="https://kantakerro.itch.io/megalophobia">Itch.io</a> | <a href="https://www.youtube.com/watch?v=FgJgqMjy5L4">Showreel</a> | <a href="https://www.youtube.com/watch?v=8MehPJkkKew">Early Testing Build Walkthrough</a>  
