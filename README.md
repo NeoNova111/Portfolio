@@ -5,7 +5,7 @@ and welcome to my game development/ programming portfolio!
 I am an aspiring game developer currently studying "Animation & Game" at "Darmstadt University of Applied Sciences" in Dieburg.
 As of the 21st of July 2022 I just finished my 6. semester of studying.  
   
-This repository shows off the projects I worked on mainly a as the programmer, but also as a game designer during my studies. They should give you a good overview over my skills and progress as a game developer/ programmer.
+This repository shows off the projects I worked on in small teams during my studies. Mainly a as the programmer, but also as a game designer. They should give you a good overview over my skills and progress as a game developer/ programmer.
 
 If you are short on time and can only look at a few of my projects, please consider my priority list. Or just refer to the showreel linked at the bottom of each of the projects pages, to get a quick overview over my most relevant contributions for said project (they are all bite sized with a length of 1 minute and 30 seconds each).
 
