@@ -4,6 +4,18 @@
 
 ![PandaMonium](https://user-images.githubusercontent.com/59093470/180043078-99188f71-97e5-4fd7-80a5-b22a9184bb83.png)
 
+Most Relevant C# Scripts Produced:  
+Weapon System: WeaponManager.cs, BaseWeapon.cs, RangedWeapon.cs, MeleeWeapon.cs, BaseBullet.cs, Rocket.cs, ParticleClusterExplosion.cs  
+Player: PlayerController.cs, CameraLook.cs, PlayerStats.cs, ViewBob.cs  
+Procedural Level Generation: RandomLevelGenerator.cs, TerrainGenerator.cs  
+Boss Enemy: PandaBossStateMachine.cs  
+Shop System: ShopInventory.cs, ShopItem.cs, ShopItemHolder.cs, ShopKeeper.cs, ShopItemPool.cs  
+Items: Item.cs, WeaponPickup.cs, GroundPowerUp,cs, AmmoPickup.cs, ItemPool.cs, MoneyPickup.cs  
+Interfaces: IDamagable.cs, IInteractable.cs, IPetable.cs, IPickupable.cs  
+Utility & Extension methods: OwnDelaunatorExtentions.cs, ExtensionMethods.cs  
+Miscellaneous: FlyCam.cs, UIManager.cs, SmolEnemy.cs, PostProcessingControl, DeactivateRigidbodyOnCollision.cs, FadetoBlackUI.cs  
+
+
 Please refer to the links below for further information on my personal contributions and the project in general
 ---------
 Links:  
