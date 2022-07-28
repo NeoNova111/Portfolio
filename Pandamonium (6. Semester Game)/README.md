@@ -8,7 +8,7 @@ Most Relevant C# Scripts Produced:
 Weapon System: WeaponManager.cs, BaseWeapon.cs, RangedWeapon.cs, MeleeWeapon.cs, BaseBullet.cs, Rocket.cs, ParticleClusterExplosion.cs  
 Player: PlayerController.cs, CameraLook.cs, PlayerStats.cs, ViewBob.cs  
 Procedural Level Generation: RandomLevelGenerator.cs, TerrainGenerator.cs  
-Boss Enemy: PandaBossStateMachine.cs  
+Boss Enemy: PandaBossStateMachine.cs, PandaBossAttackState.cs, PandaBossMeteorState.cs, PandaBossTransitionState.cs, PandaBossWalkState.cs  
 Shop System: ShopInventory.cs, ShopItem.cs, ShopItemHolder.cs, ShopKeeper.cs, ShopItemPool.cs  
 Items: Item.cs, WeaponPickup.cs, GroundPowerUp,cs, AmmoPickup.cs, ItemPool.cs, MoneyPickup.cs  
 Interfaces: IDamagable.cs, IInteractable.cs, IPetable.cs, IPickupable.cs  
