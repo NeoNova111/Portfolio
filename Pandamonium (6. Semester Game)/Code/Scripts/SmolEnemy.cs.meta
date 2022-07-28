@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 98e0f204694c8434f9a8a3aa5186720c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hearts: {instanceID: 0}
+  - customTransform: {instanceID: 0}
+  - startPet: {fileID: 11400000, guid: 9ac2ca6ac21b4d145a72bca6451da909, type: 2}
+  - stopPet: {fileID: 11400000, guid: 2535ab06143c1d543bdf05d72d593c36, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
