@@ -8,6 +8,10 @@ It is the first full game project I have worked on in a collaborative team effor
 The assets folder only contains the assets (for this project the code) created by myself.
 
 Please refer to the links below for further information on my personal contributions and the project in general
+
+Most Relevant Code/ C# Scripts:  
+submarineMovement.cs, FullScreenScanner.shader, TeleportScriptEditor.cs, TeleportScript.cs, AudioManager.cs, SoundManager.cs, TransitionManager.cs, Dialogue.cs, DialogueControll.cs, GameEvent.cs, GameEventListener.cs, SoundClip.cs, SubStats.cs, Room.cs, Compass.cs, SaveManger.cs, SubMovementSFX.cs, ScannerEffectDemo.cs, Fear.cs, SanityControl.cs
+
 ----------
 Links:  
 <a href="https://www.youtube.com/watch?v=n0k5NkSPoXU">Trailer</a> | <a href="https://kantakerro.itch.io/megalophobia">Itch.io</a> | <a href="https://www.youtube.com/watch?v=FgJgqMjy5L4">Showreel</a> | <a href="https://www.youtube.com/watch?v=8MehPJkkKew">Early Testing Build Walkthrough</a>  
