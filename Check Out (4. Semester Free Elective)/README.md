@@ -7,4 +7,5 @@ The scripts folder contains code by me created for this project
 Please refer to the links below for further information on my personal contributions and the project in general
 ----------
 Links:  
-<a href="https://apandev.itch.io/check-out?secret=wUHIVVNLDxzZWG2KshW6OSrLA">Itch.io (unreleased, so no download)</a> | <a href="https://www.youtube.com/watch?v=WFvULXqqYFQ&t=1s">Prototype gameplay</a>
+<a href="https://drive.google.com/drive/folders/1AmwXiJLTrrpkYc5I1tfeet6t7AFw2Bhu?usp=sharing">google drive build download</a>
+ | <a href="https://apandev.itch.io/check-out?secret=wUHIVVNLDxzZWG2KshW6OSrLA">Itch.io</a> (unreleased, so no download) | <a href="https://www.youtube.com/watch?v=WFvULXqqYFQ&t=1s">Prototype gameplay</a>
