@@ -18,4 +18,4 @@ Miscellaneous: FlyCam.cs, UIManager.cs, SmolEnemy.cs, PostProcessingControl, Dea
 
 ---------
 Links:  
-<a href="https://www.youtube.com/watch?v=8UDz6PhGyvI">Trailer</a> | Itch.io | <a href="https://www.youtube.com/watch?v=i9RFHk3O4r4">Showreel</a>  
+<a href="https://www.youtube.com/watch?v=8UDz6PhGyvI">Trailer</a> | Itch.io (<a href="https://drive.google.com/drive/folders/1HmmUVRiGLJXIOH460v6b20BW6dIzkn8w?usp=sharing">temp google drive download</a>) | <a href="https://www.youtube.com/watch?v=i9RFHk3O4r4">Showreel</a> | <a href="https://www.youtube.com/watch?v=q1BjsqRV6fM">Gameplay Walkthrough</a>
