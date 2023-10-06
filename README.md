@@ -1,6 +1,7 @@
 # Portfolio
 ----------
-Hey, my name is Carlo,  
+Hey!   
+My name is Carlo,  
 and welcome to my game development/ programming portfolio!
 I am an aspiring game developer/ programmer with a bachelor's degree in "Animation & Game" at "Darmstadt University of Applied Sciences" in Dieburg.
   
@@ -8,7 +9,7 @@ This repository shows off a wide variety of projects I worked on in small teams 
 
 I also worked on <a href="https://www.studio-fizbin.com/">Studio Fizbin's "Project: Kokidon"</a> as a programmer for 6 months, during an internship. As of October 2023, the game has not been fully announced/ released yet so I can not talk about my specific contributions at this point.
 
-Please consider my priority list if you are short on time and can only look at a few of my projects. Or just refer to the showreels linked at the bottom of each of the project pages, to get a quick overview of my most relevant contributions for said project (they are all bite-sized with a length of 1 minute and 30 seconds each).
+Please consider my priority list if you are short on time and can only look at a few of my projects. Or just refer to the showreels linked at the top of the project pages, to get a quick overview of my most relevant contributions for said project (they are all bite-sized with a length of 1 minute and 30 seconds each).
 
 Of course, I still encourage you to take a look at all of them ;)
 ----------
