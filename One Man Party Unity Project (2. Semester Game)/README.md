@@ -1,5 +1,11 @@
-![OneManParty_OneManDev_Newcomer_Award_Promo_CoverArt](https://user-images.githubusercontent.com/59093470/156414326-9b1404f5-8ff3-4dbc-be2a-2679f47f7769.PNG)
+Please refer to the showreel for further information on my personal contributions and other links for more information on the project in general
 ----------
+Links:  
+<a href="https://www.youtube.com/watch?v=ox5ZZAuLEVo">Trailer</a> | <a href="https://www.youtube.com/watch?v=50jTLOs0Zpo">Showreel</a>
+
+One Man Party
+----------
+![OneManParty_OneManDev_Newcomer_Award_Promo_CoverArt](https://user-images.githubusercontent.com/59093470/156414326-9b1404f5-8ff3-4dbc-be2a-2679f47f7769.PNG)
 Project Description:  
 "One Man Party" is the game I personally developed during my second semester at "Darmstadt University of Applied Sciences" as part of the "Animation & Game" study course.
 Because of Corona we didn't have the possibility to work in teams. Thus everything in the project all assets including (code, sprites, tilemaps etc.) except the soundtrack and all design decisions (character design, game design, level design etc.) were made by me in the span of 3 months during my studies.
@@ -12,6 +18,3 @@ Please refer to the links below for further information on my personal contribut
 
 Most Relevant Code/ C# Scripts:  
 BattleSystem.cs, Inventory.cs, ApplicationScript.cs, AudioManager.cs, SoundClip.cs, OverworldEnemy.cs, PlayerMovemt.cs, Dialogue.cs, Ability.cs, Job.cs, Unit.cs, GameEvent.cs, GameEventListener.cs
-----------
-Links:  
-<a href="https://www.youtube.com/watch?v=ox5ZZAuLEVo">Trailer</a> | <a href="https://www.youtube.com/watch?v=50jTLOs0Zpo">Showreel</a>
