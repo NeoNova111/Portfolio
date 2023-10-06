@@ -1,5 +1,5 @@
 <a href="https://www.studio-fizbin.com/#/projectkokidon/">Project: Kokidon</a>
-[![projectkokidon](https://github.com/NeoNova111/Portfolio/assets/59093470/17afa4d3-355f-416a-a8fc-9d9524714fd8)](https://www.studio-fizbin.com/#/projectkokidon/)
+[![projectkokidon](https://github-production-user-asset-6210df.s3.amazonaws.com/59093470/273318880-17afa4d3-355f-416a-a8fc-9d9524714fd8.png)](https://www.studio-fizbin.com/#/projectkokidon/)
 
 My contributions/ learnings:  
 -collaboration on large code base using git  
