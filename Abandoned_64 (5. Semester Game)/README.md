@@ -1,9 +1,7 @@
 Please refer to the showreel for further information on my personal contributions and other links for more information on the project in general
 ---------
 Links:  
-<a href="https://www.youtube.com/watch?v=nJug7Mf8hVU">Trailer</a> | <a href="https://l4ndo.itch.io/abandoned-64">Itch.io</a> | <a href="https://www.youtube.com/watch?v=W2zVl0yd2QQ">Showreel</a>  
-
-<a href="https://www.youtube.com/watch?v=NU2XC5HwkD8&t=761s">Full Playthrough by "Aplha Beta Gamer"</a>
+<a href="https://www.youtube.com/watch?v=nJug7Mf8hVU">Trailer</a> | <a href="https://l4ndo.itch.io/abandoned-64">Itch.io</a> | <a href="https://www.youtube.com/watch?v=W2zVl0yd2QQ">Showreel</a> | <a href="https://www.youtube.com/watch?v=NU2XC5HwkD8&t=761s">Full Playthrough by "Aplha Beta Gamer"</a>
 
 
 
