@@ -8,7 +8,7 @@ I'm Carlo, a passionate game developer and programmer, and I welcome you to my g
   
 During my studies, I worked on various smaller games in teams of various sizes, ranging from 4 - 15 developers. This repository shows the wide range of games of various genres and styles I worked on during my studies. I mainly focused on programming but also regularly contributed as a game designer.
 
-Although some of these projects no longer represent my current skill level, they provide valuable insight into my journey and evolution as a game developer/programmer. 
+Although some of the earlier projects no longer represent my current skill level, they still provide valuable insight into my journey and evolution as a game developer/programmer and are worth showing off. 
 
 I especially learned a lot and made huge improvements when working with industry professionals during my 6 months programming internship working on <a href="https://www.studio-fizbin.com/">Studio Fizbin's "Project: Kokidon"</a>. While I can't go into specific details of my contribution to the project due to project confidentiality, I can offer a general overview of my experiences and contributions <a href="https://github.com/NeoNova111/Portfolio/tree/main/Project%20Kokidon">here</a>.
 
