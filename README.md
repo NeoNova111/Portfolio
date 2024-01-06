@@ -2,14 +2,26 @@ Links:
 <a href="https://www.youtube.com/channel/UCJKa8idl7TpF9RqIwFwmBOQ">YouTube</a> | <a href="https://apandev.itch.io/">Itch.io</a>
 
 # Game Programming Portfolio
-Hey, I'm Carlo! Thank you for visiting my portfolio! Here are some of the game projects I'd like to highlight! If you'd like a more thorough introduction and a comprehensive overview of the games I programmed you can find those at the bottom of this read me. Have fun :)
+Hey, I'm Carlo! Thank you for visiting my portfolio! Here are some of the game projects I'd like to highlight! If you'd like a more thorough introduction and a comprehensive overview of the games I programmed you can find those at the bottom of this page. Have fun :)
 # Highlighted Game Projects
 "Abandoned_64" (3D Action Platformer)
 ----------
+| Showreel | Trailer |
+|:-------------------------:|:-------------------------:|
+| [![64_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/92788528-327b-4a32-9971-abdaa0cf527c)](https://www.youtube.com/watch?v=W2zVl0yd2QQ) | [![64_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/782c12d0-1ca5-4b13-8947-dca1d70f576b)](https://www.youtube.com/watch?v=nJug7Mf8hVU)
+
 "Pandamonium" (FPS Roguelike)
 ----------
+| Showreel | Trailer |
+|:-------------------------:|:-------------------------:|
+| [![Panda_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/e3e23671-c474-4cc2-b530-347392c2b3ff)](https://www.youtube.com/watch?v=i9RFHk3O4r4) | [![Panda_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/a3344387-8657-4a6e-9b99-e5bde088eb4e)](https://www.youtube.com/watch?v=8UDz6PhGyvI)
+
 "Megalophobia" (Atmospheric Story-Driven Horror)
 ----------
+| Showreel | Trailer |
+|:-------------------------:|:-------------------------:|
+| [![Mega_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/8e5d2d15-1324-4512-9084-8219ac06b511)](https://www.youtube.com/watch?v=FgJgqMjy5L4) | [![Mega_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/4dfebc9c-e31a-4df0-b7e3-7dffadf13886)](https://www.youtube.com/watch?v=n0k5NkSPoXU)
+
 # More Game Projects
 University Game Projects
 ----------
