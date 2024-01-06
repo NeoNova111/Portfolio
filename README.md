@@ -15,10 +15,23 @@ Abandoned_64 is a nostalgia-inducing N_64 game that’s "still in the early stag
 For this game, I was the main programmer and also contributed to some game design.
 
 Noteworthy Contributions:
-* Hierarchical state machine to create a complex player controller by combining different states
 * Lock-on mechanic that allows for focused combat and easy and intuitive switching of targets
+* Hierarchical state machine to create a complex player controller by combining different states
 * Contextual interactions using interfaces
-* Event-based (and triggered) dialogue system
+* Event-based dialogue system
+* "Bugs" as unique gameplay mechanics
+
+| Lock-on mechanic that allows for focused combat and easy and intuitive switching of targets | Hierarchical state machine to create a complex player controller by combining different states |
+|:-------------------------:|:-------------------------:|
+![A64 (1)](https://github.com/NeoNova111/Portfolio/assets/59093470/99077665-1797-4755-b7d0-e4eeae2e0eaf) | ![A64 (4)](https://github.com/NeoNova111/Portfolio/assets/59093470/b3443900-344c-4252-b67f-e73cc9389ec7) |
+
+| Contextual interactions using interfaces | Event-based dialogue system |
+|:-------------------------:|:-------------------------:|
+![A64 (1)](https://github.com/NeoNova111/Portfolio/assets/59093470/b9529bd1-54d4-4e83-abc5-a51c07468a9b) | ![A64 (4)](https://github.com/NeoNova111/Portfolio/assets/59093470/8c41d294-fcb7-4669-b621-c1f7f32523b4) |
+
+| "Bugs" as unique gameplay mechanics |
+|:-------------------------:|
+| ![A64 (1)](https://github.com/NeoNova111/Portfolio/assets/59093470/41686adf-6680-471a-837c-78902f355a04) |
 
 "Pandamonium" (FPS Roguelike)
 ----------
@@ -33,9 +46,22 @@ In this project, I was responsible for implementing and designing all of the gam
 Noteworthy Contributions:
 * Highly adaptable weapon script
 * Kinematic momentum-based movement controller
-* Procedural level layouts by separating rooms with simple separation behaviour --> generating a graph and extracting a minimum spanning tree to generate a path leading to all rooms once
-* Terrain generation using Perlin noise textures
+* Boss behaviour
+* Enemy behaviour
+* Procedural level & Terrain generation
 * Photomode tool to take screenshots for marketing materials
+
+| Highly adaptable weapon script | Kinematic momentum-based movement controller |
+|:-------------------------:|:-------------------------:|
+| ![Panda (1)](https://github.com/NeoNova111/Portfolio/assets/59093470/e05bbb94-3a92-45ff-9959-99db412fe7ed) | ![Panda (4)](https://github.com/NeoNova111/Portfolio/assets/59093470/e851a666-6769-4a99-ada2-8398dc227326) |
+
+| Boss behaviour | Enemy behaviour |
+|:-------------------------:|:-------------------------:|
+| ![Panda (3)](https://github.com/NeoNova111/Portfolio/assets/59093470/a25d9e3f-d834-4d0b-90a9-eea47a654f56) | ![Panda (2)](https://github.com/NeoNova111/Portfolio/assets/59093470/647715f1-0b82-4b3c-b7e1-046e8c5b1b94) |
+
+| Procedural level & terrain generation |
+|:-------------------------:|
+| ![Panda (5)](https://github.com/NeoNova111/Portfolio/assets/59093470/6491d0ee-1247-4bb7-a6ad-160e830dceae) |
 
 "Megalophobia" (Atmospheric Story-Driven Horror)
 ----------
@@ -52,7 +78,15 @@ Noteworthy Contributions:
 * Camera transition system
 * Submarine movement
 * Custom audio system
-* Dialogue system
+* Voiced dialogue system
+
+| Scanner shader | Submarine movement |
+|:-------------------------:|:-------------------------:|
+| ![Mega (3)](https://github.com/NeoNova111/Portfolio/assets/59093470/bf9d9601-335d-459d-abda-fa8c29bbbcae) | ![Mega (2)](https://github.com/NeoNova111/Portfolio/assets/59093470/b3651aba-7a58-45f3-817a-f0a6aed32eed) |
+
+| Voiced dialogue system |
+|:-------------------------:|
+| ![Mega (1)](https://github.com/NeoNova111/Portfolio/assets/59093470/be856acb-4b47-4dec-8da5-7a3cca6a4476) |
 
 # More Game Projects
 University Game Projects
