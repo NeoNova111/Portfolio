@@ -101,14 +101,13 @@ Other Projects
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 [![projectkokidon](https://github-production-user-asset-6210df.s3.amazonaws.com/59093470/273318880-17afa4d3-355f-416a-a8fc-9d9524714fd8.png)](https://github.com/NeoNova111/Portfolio/tree/main/Project%20Kokidon) | [![CheckOut](https://user-images.githubusercontent.com/59093470/156429528-284d9b49-5b0b-44c8-9da9-9aaefc90cabd.png)](https://github.com/NeoNova111/Portfolio/tree/main/Check%20Out%20(4.%20Semester%20Free%20Elective)) | [![picoDash](https://github-production-user-asset-6210df.s3.amazonaws.com/59093470/273320478-a66f4de7-49ef-47f7-9d51-a192c3bb3c63.PNG)](https://github.com/NeoNova111/Portfolio/tree/main/Geometry%20Dash%20Demake) | [![AZD](https://user-images.githubusercontent.com/59093470/273333474-cdb5443a-c4f9-403b-a6a2-ec4d8c968230.png)](https://github.com/NeoNova111/Portfolio/tree/main/AZD)
 
-Introduction
-----------
+# Full Introduction  
 Hey!  
-I'm Carlo, a passionate game developer and programmer, and I welcome you to my game development/ programming portfolio. I have a bachelor's degree in 'Animation & Game' from 'Darmstadt University of Applied Sciences in Dieburg. My primary expertise is in working with Unity & C#, but I also have a fundamental understanding of other languages, such as Java, SQL, C++, and Lua.
+I'm Carlo, a passionate game developer and programmer, and I welcome you to my game development/ programming portfolio. I with a bachelor's degree in 'Animation & Game' from 'Darmstadt University of Applied Sciences in Dieburg. I am proficient in Unity & C#, but I also have some experience with other common languages used in game development, such as Java, C++, and Lua.
   
 During my studies, I worked on various smaller games in teams of various sizes, ranging from 4 - 15 developers. This repository shows the wide range of games of various genres and styles I worked on during my studies. I mainly focused on programming but also regularly contributed as a game designer.
 
-Although some of the earlier projects no longer represent my current skill level, they still provide valuable insight into my journey and evolution as a game developer/programmer and are worth showing off. 
+Although some earlier projects no longer represent my current skill level, they still provide valuable insight into my journey and growth as a game developer/programmer and are worth showing off. 
 
 I especially learned a lot and made huge improvements when working with industry professionals during my 6 months programming internship working on <a href="https://www.studio-fizbin.com/">Studio Fizbin's "Project: Kokidon"</a>. While I can't go into specific details of my contribution to the project due to project confidentiality, I can offer a general overview of my experiences and contributions <a href="https://github.com/NeoNova111/Portfolio/tree/main/Project%20Kokidon">here</a>.
 
