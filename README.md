@@ -6,21 +6,53 @@ Hey, I'm Carlo! Thank you for visiting my portfolio! Here are some of the game p
 # Highlighted Game Projects
 "Abandoned_64" (3D Action Platformer)
 ----------
-| Showreel | Trailer |
+| Showreel (1:31) | Trailer (1:21) |
 |:-------------------------:|:-------------------------:|
-| [![64_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/92788528-327b-4a32-9971-abdaa0cf527c)](https://www.youtube.com/watch?v=W2zVl0yd2QQ) | [![64_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/782c12d0-1ca5-4b13-8947-dca1d70f576b)](https://www.youtube.com/watch?v=nJug7Mf8hVU)
+| [![64_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/92788528-327b-4a32-9971-abdaa0cf527c)](https://www.youtube.com/watch?v=W2zVl0yd2QQ) | [![64_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/782c12d0-1ca5-4b13-8947-dca1d70f576b)](https://www.youtube.com/watch?v=nJug7Mf8hVU)  
+
+Abandoned_64 is a nostalgia-inducing N_64 game that’s "still in the early stages of development" where you must use bugs, glitches and developer tools in creative ways to progress through the seemingly impossible levels.
+
+For this game, I was the main programmer and also contributed to some game design.
+
+Noteworthy Contributions:
+* Hierarchical state machine to create a complex player controller by combining different states
+* Lock-on mechanic that allows for focused combat and easy and intuitive switching of targets
+* Contextual interactions using interfaces
+* Event-based (and triggered) dialogue system
 
 "Pandamonium" (FPS Roguelike)
 ----------
-| Showreel | Trailer |
+| Showreel (1:30) | Trailer (0:33) |
 |:-------------------------:|:-------------------------:|
-| [![Panda_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/e3e23671-c474-4cc2-b530-347392c2b3ff)](https://www.youtube.com/watch?v=i9RFHk3O4r4) | [![Panda_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/a3344387-8657-4a6e-9b99-e5bde088eb4e)](https://www.youtube.com/watch?v=8UDz6PhGyvI)
+| [![Panda_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/e3e23671-c474-4cc2-b530-347392c2b3ff)](https://www.youtube.com/watch?v=i9RFHk3O4r4) | [![Panda_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/a3344387-8657-4a6e-9b99-e5bde088eb4e)](https://www.youtube.com/watch?v=8UDz6PhGyvI)  
+
+“Pandamonium” is a humorous 2.5D rogue-like first-person shooter game. In it, you play as a puny animal control officer whose task it is to subdue comically muscular zoo animals using non-lethal weaponry like modified tranquillizer dart guns.
+
+In this project, I was responsible for implementing and designing all of the game's systems.
+
+Noteworthy Contributions:
+* Highly adaptable weapon script
+* Kinematic momentum-based movement controller
+* Procedural level layouts by separating rooms with simple separation behaviour --> generating a graph and extracting a minimum spanning tree to generate a path leading to all rooms once
+* Terrain generation using Perlin noise textures
+* Photomode tool to take screenshots for marketing materials
 
 "Megalophobia" (Atmospheric Story-Driven Horror)
 ----------
-| Showreel | Trailer |
+| Showreel (1:22) | Trailer (0:54) |
 |:-------------------------:|:-------------------------:|
-| [![Mega_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/8e5d2d15-1324-4512-9084-8219ac06b511)](https://www.youtube.com/watch?v=FgJgqMjy5L4) | [![Mega_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/4dfebc9c-e31a-4df0-b7e3-7dffadf13886)](https://www.youtube.com/watch?v=n0k5NkSPoXU)
+| [![Mega_showreel](https://github.com/NeoNova111/Portfolio/assets/59093470/8e5d2d15-1324-4512-9084-8219ac06b511)](https://www.youtube.com/watch?v=FgJgqMjy5L4) | [![Mega_trailer](https://github.com/NeoNova111/Portfolio/assets/59093470/4dfebc9c-e31a-4df0-b7e3-7dffadf13886)](https://www.youtube.com/watch?v=n0k5NkSPoXU)  
+
+"Megalophobia" is a narrative-driven singleplayer experience in which you take control of the two-man submarine Кефаль (Kefal) on their search mission for a missing submarine in the depths of the ocean. 
+
+In this project, I was responsible for all the gameplay logic and all other coded systems, some game design aspects and some of the shaders (e.g. the scanner). It is the first full game project I have worked on in a collaborative team effort during my studies.
+
+Noteworthy Contributions:
+* Scanner shader
+* Camera transition system
+* Submarine movement
+* Custom audio system
+* Dialogue system
 
 # More Game Projects
 University Game Projects
@@ -35,8 +67,8 @@ Other Projects
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 [![projectkokidon](https://github-production-user-asset-6210df.s3.amazonaws.com/59093470/273318880-17afa4d3-355f-416a-a8fc-9d9524714fd8.png)](https://github.com/NeoNova111/Portfolio/tree/main/Project%20Kokidon) | [![CheckOut](https://user-images.githubusercontent.com/59093470/156429528-284d9b49-5b0b-44c8-9da9-9aaefc90cabd.png)](https://github.com/NeoNova111/Portfolio/tree/main/Check%20Out%20(4.%20Semester%20Free%20Elective)) | [![picoDash](https://github-production-user-asset-6210df.s3.amazonaws.com/59093470/273320478-a66f4de7-49ef-47f7-9d51-a192c3bb3c63.PNG)](https://github.com/NeoNova111/Portfolio/tree/main/Geometry%20Dash%20Demake) | [![AZD](https://user-images.githubusercontent.com/59093470/273333474-cdb5443a-c4f9-403b-a6a2-ec4d8c968230.png)](https://github.com/NeoNova111/Portfolio/tree/main/AZD)
 
+Introduction
 ----------
-
 Hey!  
 I'm Carlo, a passionate game developer and programmer, and I welcome you to my game development/ programming portfolio. I have a bachelor's degree in 'Animation & Game' from 'Darmstadt University of Applied Sciences in Dieburg. My primary expertise is in working with Unity & C#, but I also have a fundamental understanding of other languages, such as Java, SQL, C++, and Lua.
   
