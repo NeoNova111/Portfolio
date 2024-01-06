@@ -1,11 +1,19 @@
 Links:
 <a href="https://www.youtube.com/channel/UCJKa8idl7TpF9RqIwFwmBOQ">YouTube</a> | <a href="https://apandev.itch.io/">Itch.io</a>
 
-# Portfolio
-
+# Game Programming Portfolio
+Hey, I'm Carlo! Thank you for visiting my portfolio! Here are some of the game projects I'd like to highlight! If you'd like a more thorough introduction and a comprehensive overview of the games I programmed you can find those at the bottom of this read me. Have fun :)
+# Highlighted Game Projects
+"Abandoned_64" (3D Action Platformer)
+----------
+"Pandamonium" (FPS Roguelike)
+----------
+"Megalophobia" (Atmospheric Story-Driven Horror)
+----------
+# More Game Projects
 University Game Projects
 ----------
-| 5th Semester Project "Abandoned_64" (3D Action Platformer) | 6th Semester Project "Pandamonium" (FPS Roguelike) | 3rd Semester Project "Megalophobia" (Atmospheric Story-Driven Exploration) | 2nd Semester Project "One Man Party" (Turn-Based RPG) |
+| 5th Semester Project "Abandoned_64" (3D Action Platformer) | 6th Semester Project "Pandamonium" (FPS Roguelike) | 3rd Semester Project "Megalophobia" (Atmospheric Story-Driven Horror) | 2nd Semester Project "One Man Party" (Turn-Based RPG) |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | [![Abandoned_64](https://user-images.githubusercontent.com/59093470/156429171-a7a8455f-8906-4d5d-935a-b62fafff2811.png)](https://github.com/NeoNova111/Portfolio/tree/main/Abandoned_64%20(5.%20Semester%20Game)) | [![PandaMonium](https://github.com/NeoNova111/Portfolio/assets/59093470/77d53e69-c32c-4d65-ac0c-ac57bc212536)](https://github.com/NeoNova111/Portfolio/tree/main/Pandamonium%20(6.%20Semester%20Game)) | [![Megalophobia](https://user-images.githubusercontent.com/59093470/156429209-f6c2aa18-5713-4bc5-8151-4ea1332a8ffd.jpg)](https://github.com/NeoNova111/Portfolio/tree/main/Megalophobia%20Unity%20Project%20(3.%20Semester%20Game)) | [![OneManParty](https://user-images.githubusercontent.com/59093470/156429609-942bf18a-d98d-4ba3-aa7a-e83a1f83d36c.png)](https://github.com/NeoNova111/Portfolio/tree/main/One%20Man%20Party%20Unity%20Project%20(2.%20Semester%20Game))  
 
